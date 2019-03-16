@@ -1,0 +1,5 @@
+<ul *ngFor='let j of courses'>
+        <li (click)="selectItem(j)">{{j.coursename}}</li>
+    </ul>
+<hr>
+<app-view-courses-detail *ngIf="chosen"[showDetail]="selectedCourse"></app-view-courses-detail>

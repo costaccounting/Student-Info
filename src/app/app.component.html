@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+<h2>Here are some links to help you start: </h2>
+
+<ul *ngFor='let i of mydata'>
+    Student Name : {{i.name}}<br>
+    Student ID : {{i.id}}<br>
+	Program: {{i.program}} <br>
+    
+    <p (click)="putcourses(i.courses)">Show courses.</p><br>
+    
+    <app-view-courses *ngIf="show" 
+            [courses]='listcourses' ></app-view-courses>
+    <hr>
+</ul>

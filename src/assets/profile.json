@@ -1,0 +1,27 @@
+[{
+	"name": "Prodip",
+	"id": "991448276",
+	"program": "System Analyst",
+	"courses": [{
+			"coursename": "Java 3",
+			"date": "Tuesday",
+			"time": "3 pm",
+			"location": "C building",
+			"desc": "Advanced java course"
+		},
+		{
+			"coursename": "Mobile Web",
+			"date": "Wedneday",
+			"time": "2 pm",
+			"location": "M building",
+			"desc": "Learning angular"
+		},
+		{
+			"coursename": "Java mobile",
+			"date": "Monday",
+			"time": "12 pm",
+			"location": "B building",
+			"desc": "Learning Android"
+		}
+	]
+}]
